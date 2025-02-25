@@ -1,61 +1,18 @@
-Análise de Viagens a Serviço
+✈️ Análise de Viagens a Serviço
+Este projeto consiste em uma aplicação desenvolvida em Python para analisar dados de viagens a serviço obtidos do Portal da Transparência. O objetivo é fornecer insights sobre despesas relacionadas a diárias, passagens e outros gastos, segmentados por cargo público.
 
-Descrição
+🚀 Funcionalidades
+Visualização de Dados: Tabela detalhada com informações sobre as viagens realizadas.
+Análise Gráfica: Gráficos ilustrando a despesa média em viagens por cargo público.
+Interface Intuitiva: Código bem estruturado e comentado para facilitar a compreensão e possíveis adaptações.
+🛠️ Tecnologias Utilizadas
+Python: Linguagem principal do projeto.
+Pandas: Para manipulação e análise de dados.
+Matplotlib: Para criação de gráficos estáticos.
+📊 Exemplo de Saída
+Visualização da Tabela: Uma tabela detalhada mostrando as despesas por cargo público, incluindo valores de diárias, passagens e outros gastos.
+Gráficos: Análises gráficas que ajudam a entender a distribuição das despesas entre diferentes cargos.
+📝 Contribuição
+Sinta-se à vontade para contribuir com melhorias! Basta abrir um Pull Request ou relatar Issues.
 
-Este projeto realiza uma análise de dados sobre viagens a serviço utilizando Python e Pandas. Os dados foram extraídos do Portal da Transparência, contendo informações sobre despesas com diárias, passagens e outros gastos segmentados por cargo público.
-
-Fonte dos Dados
-
-Os dados utilizados na análise podem ser acessados diretamente no Portal da Transparência através do seguinte link:
-Portal da Transparência - Viagens a Serviço
-
-Tecnologias Utilizadas
-
-Python
-
-Pandas
-
-Matplotlib
-
-Jupyter Notebook (ou ambiente similar para execução dos scripts)
-
-Estrutura do Projeto
-
-📂 projeto-analise-viagens
-├── 📂 datasets
-│   ├── (Os dados CSV não foram incluídos devido ao tamanho)
-├── 📂 output
-│   ├── tabela_2024.xlsx
-│   ├── grafico_2024.png
-├── 📜 analise_viagens.py
-├── 📜 README.md
-
-Como Executar o Projeto
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/projeto-analise-viagens.git
-
-Instale as dependências necessárias:
-
-pip install pandas matplotlib
-
-Baixe o arquivo CSV diretamente do Portal da Transparência e salve na pasta datasets.
-
-Execute o script de análise:
-
-python analise_viagens.py
-
-Resultados
-
-O projeto gera uma tabela consolidada das despesas e um gráfico ilustrando a despesa média em viagens por cargo público.
-
-Contribuição
-
-Sinta-se à vontade para contribuir com melhorias ou novas análises!
-
-Licença
-
-Este projeto é de domínio público e pode ser utilizado livremente.
-
-📌 Observação: O arquivo CSV não foi incluído no repositório devido a restrições de tamanho. Certifique-se de baixá-lo manualmente antes de executar o projeto.
+Observação: Os dados utilizados na análise foram obtidos do Portal da Transparência - Viagens a Serviço. Devido a restrições de tamanho, o arquivo CSV não foi incluído no repositório. Certifique-se de baixá-lo manualmente antes de executar o projeto.
